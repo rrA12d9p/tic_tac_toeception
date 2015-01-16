@@ -1,5 +1,11 @@
 body {
+  font-family: sans-serif;
   padding: 20px 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
 }
 
 ul {
@@ -12,8 +18,9 @@ li {
   height: 100px;
   display: inline-block;
   position: relative;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 5px;
+  /*margin-right: 20px;
+  margin-bottom: 20px;*/
   background-color: silver;
   list-style: none;
   font-size: 80px;
@@ -34,4 +41,45 @@ li.x:before {
 
 li.o:before {
   content: "O";
+}
+
+.x {
+  color: red;
+}
+
+.o {
+  color: blue;
+}
+
+.score {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#x-score {
+  color: red;
+}
+
+#o-score {
+  color: blue;
+}
+
+.score span {
+  padding: 5px;
+}
+
+.game {
+  margin: 40px auto;
+  background: #eee;
+  padding: 20px;
+  width: 400px;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  margin: 20px auto;
+  padding: 0;
+  text-align: center;
 }
